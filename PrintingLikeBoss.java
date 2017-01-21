@@ -15,7 +15,7 @@ public class PrintingLikeBoss {
     public static void printWhitespaces(int amount) {
         
         int sum = 0;
-        while(sum < amount -1) {
+        while(sum < amount) {
             System.out.print(" ");
             sum++;
         }
@@ -25,7 +25,7 @@ public class PrintingLikeBoss {
         int num = size-1;
         int hold = 0;
         while(num >= 0) {
-            printWhitespaces(size);
+            printWhitespaces(size-1);
             printStars((size-(num))+hold);
             num--;
             size--;
