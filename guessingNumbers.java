@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class GuessingNumberGame {
 
+
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         int numberDrawn = drawNumber();
